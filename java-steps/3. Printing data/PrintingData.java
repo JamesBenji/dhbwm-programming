@@ -30,6 +30,8 @@ public class PrintingData {
         System.out.println();
         System.out.println();
         System.out.printf("This a string: %s", "Hello");
+        System.out.println();
+        System.out.printf("This a formatted number: %.2f", 100.11111);
         
         // Concatenating data: Putting the pieces together within the print
         System.out.println();
@@ -43,7 +45,7 @@ public class PrintingData {
         // Fun example:
         System.out.print("What\'s");
         System.out.print(" ");
-        System.out.println("new");
+        System.out.println("your take?");
 
     }
 }

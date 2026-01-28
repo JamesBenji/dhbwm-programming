@@ -23,7 +23,8 @@ public class StringLiteralsMemoryEfficiencyPoC {
         System.out.println("[TEST 3] string5 == string4: " + String.valueOf(string5 == string4));
 
         //Easter Egg: To compare the actual values in the reference String, we must use the .equals method.
-        // The comparison operators compare memory locations for reference objects. For primitive variables, the comparison operators compare the actual values
+        // The comparison operators compare memory locations for reference objects. For primitive variables, the comparison operators compare the actual values.
+        // The special null value on works with reference types to represent that it has not been intialized yet. It does not work with primitive types.
 
         System.out.println("----------------------------------------------------------------------");
 
